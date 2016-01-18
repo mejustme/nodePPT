@@ -1,0 +1,33 @@
+.file-setting{
+    color: yellow;
+}
+#incallback,#outcallback{
+    margin-top:10px;
+    background-color: rgba(0,0,0,.5);
+}
+
+.normal-web{
+  position: inherit !important;
+}
+slides>slide .slide-wrapper img{
+    max-height: 650px!important;
+}
+.slide{
+    background-color: #fff !important;
+
+}
+.slide h1, .slide h2, .slide h3, .slide h4{
+    color: black;
+    text-shadow: none !important;
+}
+
+.first-slide  h1, .first-slide h2, .first-slide h3, .first-slideh4{
+    color: white !important;
+    text-shadow: 2px 3px 4px #000 !important;
+}
+li{
+    color: black !important;
+}
+strong{
+    text-shadow: none !important;
+}
