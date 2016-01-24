@@ -66,14 +66,14 @@ usemathjax: yes
 [slide]
 ## 更糟糕？
 ----
-### 因为我们云课堂有40个传统页面入口
-###仅仅少数的是单页面应用（多个页面共享一个core.js）。
+#### 因为我们云课堂有40个传统页面入口
+####仅仅少数的是单页面应用（多个页面共享一个core.js）。
 <br>
  - 页面加载速度是影响用户体验的第一因素，也影响到SEO的抓取与排名
  - `大部分用户点击大部分页面`(传统页面)，每次都要重新`解析5万行`JS，耗时5秒，
  - 并且core.js 是不缓存的，用户每次更换页面还要`请求1M`，耗时0.3秒 `会阻塞，导致延迟`
 <div >
- <img class="normal-web" src="/nocache.png" >
+ <img class="normal-web" src="/nocache.png" height="150">
 </div>
 
  - 为什么不缓存？ `因为只要有两个文件使用同一个js就被打包入，那么常常更改的模块也被打包进core.js，不能给浏览器缓存机会,利用版本更新`
@@ -93,8 +93,14 @@ usemathjax: yes
 </div>
 [官网webpack](https://webpack.github.io/docs/what-is-webpack.html)
 
+
+[slide]
+<div >
+ <img class="normal-web" src="/yun.png" height="800">
+</div>
+
 [slide]
 # show me the code
-<iframe data-src="http://www.baidu.com" src="about:blank;"></iframe>
+<iframe data-src="http://localhost:8080/build/ftl/" src="about:blank;"></iframe>
 
 

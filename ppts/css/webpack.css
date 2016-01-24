@@ -10,7 +10,7 @@
   position: inherit !important;
 }
 slides>slide .slide-wrapper img{
-    max-height: 650px!important;
+   /* max-height: 650px!important;*/
 }
 .slide{
     background-color: #fff !important;
@@ -27,10 +27,18 @@ slides>slide .slide-wrapper img{
 }
 li{
     color: black !important;
+    line-height: 1.8rem !important;
+    font-size: 20px;
 }
 strong{
     text-shadow: none !important;
 }
 iframe{
     height: 550px !important;
+}
+.img-full img {
+    background: white;
+}
+.img-full{
+    background: white;
 }
